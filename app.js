@@ -21,8 +21,8 @@ let experience = [
 function displayPosition(title, company, duties) {
     console.log(title + " at " + company + duties);
 };
-displayPosition(experience[1].title, experience[1].company, experience[1].duties);
 displayPosition(experience[0].title, experience[0].company, experience[0].duties);
+displayPosition(experience[1].title, experience[1].company, experience[1].duties);
 console.log("My Skills:");
 let skills = [
     {
